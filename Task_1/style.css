@@ -1,19 +1,27 @@
 body {
     font-family: Arial, sans-serif;
-    
-}
-
-.topnav {
-    background-color: #333;
-    overflow: hidden;
-    color: #fff;
-}
-.topnav a {
-    float: left;
-    color: #f2f2f2;
+    background: #d8d5d5;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
     text-align: center;
-    padding: 14px;
-    text-decoration: none;
-    font-size: 17px;
 }
 
+.container {
+    background: beige;
+    display: inline-grid;
+    width: 50%;
+    height: 85%;
+    align-items: center;
+    justify-content: center
+}
+
+githubb {
+    margin: 10px;
+  }
+
+  githubb a{
+    color: #333 ;
+    font-size: 20px;
+    text-decoration: none;
+  }
