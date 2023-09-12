@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <script src="https://kit.fontawesome.com/012c218f68.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task: Frontend Page Creation with Specific Elements</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class = "topnav">
+    <div class="container">
+    <!-- <div class = "topnav"> 
         <a class="active" href="#home">Home</a>
-    </div>
-    <div class="userName"> 
-        <h3>Slack Name: <span id="slackUserName"> </span> </h3>  
-    </div>
-
-    <div class="displayImage" ><h3>Slack Display Picture:</h3>
-        <p id="slackDisplayImage"></p>
-    </div>
+        <a href=""></a>
+    </div> -->
+    <header class="userName"> 
+        <h2 id="slackUserName" data-testid> Rebecca Acheampong </h2>
+        <img src="meeee.png" alt="rebecca acheampong" data-testid="slackDisplayImage">
+    </header>
 
     <div class="dayOfWeek">
-        <h3>Current Day of the Week: <span id ="currentDayOfTheWeek"></span></h3>
-    </div>
-
-    <div class="utcTime">
-        <h3>Current UTC Time: <span id="currentUTCTime"></span></h3>
+        <h3 id="day" data-testid="currentDayOfTheWeek" ></h3>
+        <h3 id="time" data-testid="currentUTCTime"></h3>
     </div>
 
     <div>
         <h3>Track: <span id="myTrack"></span></h3>
     </div>
-   
+    <div class="githubb">
+        <a href="" data-testid="gitHubURL"> <i class="fa-brands fa-github"></i>Github</a>
+    </div>
     <script src="test.js"></script>
 </body>
 </html>
+
